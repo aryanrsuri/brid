@@ -1,0 +1,20 @@
+====
+guid
+====
+
+18-byte, time sorted, collision resistant id.
+
+  time (6) randomness (12)
+  tttttt   rrrrrrrrrrrr
+
+Why
+
+* K-sorted by time.
+* Does not contain hyphens.
+* Negligble collision p (5e-20) within the same millisecond.
+
+For 
+
+* Job identification.
+* Or, anything, really.
+
