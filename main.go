@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func guid() string {
+func brid() string {
 	var id [18]byte
 	now := time.Now().UnixMilli()
 	id[0] = byte(now >> 40)
@@ -20,4 +20,4 @@ func guid() string {
 	}
 	return hex.EncodeToString(id[:])
 }
-func main() { guid() }
+func main() { brid() }

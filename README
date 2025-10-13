@@ -1,8 +1,9 @@
 ====
-guid
+brid
 ====
 
-18-byte, time sorted, collision resistant id.
+
+18-byte, time sorted, **burst resistant identifier**.
 
   time (6) randomness (12)
   tttttt   rrrrrrrrrrrr
