@@ -20,4 +20,4 @@ func brid() string {
 	}
 	return hex.EncodeToString(id[:])
 }
-func main() { brid() }
+func main() { println(brid()) }
